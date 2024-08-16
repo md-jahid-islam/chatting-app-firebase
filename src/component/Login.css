@@ -1,0 +1,57 @@
+.login h2{
+    font-size: 40px;
+    color:black;
+    font-weight: 600;
+    @apply font-poppins
+    
+}
+
+.main_form label{
+    font-size: 18px;
+    color: rgb(152, 33, 33);
+    @apply font-poppins;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.main_form input{
+    width: 400px;
+    height: 45px;
+    border: 2px solid violet;
+    outline: none;
+    border-radius: 5px;
+}
+.main_form .error{
+    font-size: 13px;
+    @apply font-poppins;
+    color: red;
+}
+.main_form Button{
+    font-size: 22px;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 233, 133);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @apply font-poppins;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.main_form Button:active{
+    scale: 1.1;
+}
+.main_icons{
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
